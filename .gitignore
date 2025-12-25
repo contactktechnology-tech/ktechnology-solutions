@@ -1,0 +1,42 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code settings (optional – keep ignored unless you want to share)
+.vscode/
+*.code-workspace
+
+# Node / general dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
+# Build / output directories
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+
+# Python (safe even if unused for now)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# OS / editor swap files
+*.swp
+*.swo
+*~
